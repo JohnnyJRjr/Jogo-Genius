@@ -1,11 +1,18 @@
-# Sample Snack app
+# Jogo Genius 9 Blocos
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este é um jogo no estilo Genius, com 9 blocos coloridos organizados em uma grade 3x3. O objetivo do jogador é memorizar e repetir a sequência de blocos que piscam.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Como funciona:
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- O jogador clica no botão *"Iniciar Jogo"*.
+- O jogo mostra uma sequência piscando com blocos aleatórios.
+- O jogador deve tocar nos blocos na mesma ordem.
+- A cada acerto, a sequência aumenta e o nível muda automaticamente (fácil, médio e difícil).
+- Se o jogador errar, aparece a mensagem: *"Olha avião, errouuuuu"*.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Tecnologias usadas
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- React Native
+- JavaScript
+
+---
